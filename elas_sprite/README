@@ -1,0 +1,3 @@
+// node sprite.js (convert svg to sprite)
+// image-sdf output/sprite.png --spread 5 --downscale 1 --color black > output/test.png 
+// node editjson.js

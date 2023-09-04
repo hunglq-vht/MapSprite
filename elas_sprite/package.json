@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "@elastic/spritezero": "^6.2.1",
+        "fs": "0.0.1-security",
+        "glob": "^7.1.6",
+        "path": "^0.12.7"
+    }
+}

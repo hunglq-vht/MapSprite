@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "pretty": "^2.0.0",
+        "svgson": "^5.2.1"
+    }
+}

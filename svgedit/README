@@ -1,0 +1,7 @@
+node convert-main.js
+node convert-shadow.js
+convert-text.js./convertText2Path.sh text text 
+
+install inkscape before running script
+
+after that, copy all converted to elas_sprite input folder
