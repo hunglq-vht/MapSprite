@@ -23,10 +23,10 @@ fs.readdir(inputFolder, (err, files) => {
                 
                 }
                 if (json.children[1] !== undefined) {
-                    json.children[1].attributes.style = 'visibility: hidden;'; 
+                    json.children[1].attributes.fill = '#fff'; 
                 }
                 if (json.children[2] !== undefined) {
-                    json.children[2].attributes.style = 'visibility: hidden;';
+                    json.children[2].attributes.fill = '#fff';
                 }
 
                 const mysvg = stringify(json, {
@@ -37,7 +37,7 @@ fs.readdir(inputFolder, (err, files) => {
 
                 let tmpFileName = fileName.replace(".svg", ""); 
                 fs.writeFile(
-                    outputFolder + tmpFileName + ".Text.svg", 
+                    outputFolder + tmpFileName + "Text.svg", 
                     pretty(mysvg), 
                     function (err) {
                         if (err) {
